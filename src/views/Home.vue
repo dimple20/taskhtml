@@ -6,13 +6,12 @@
 
 <script>
 // @ is an alias to /src
-import htmlform from '@/components/htmlform.vue';
-
+import htmlform from "@/components/htmlform.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
-  htmlform,
-  },
+    htmlform
+  }
 };
 </script>
