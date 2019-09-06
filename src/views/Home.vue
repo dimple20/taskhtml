@@ -1,17 +1,32 @@
 <template>
   <div class="home">
-    <htmlform/>
+    <headerSection/>
+    <photo/>
+  
+  <stuff/>
+  <footerSection/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import htmlform from "@/components/htmlform.vue";
+import headerSection from "@/components/headerSection.vue";
+import photo from "@/components/photo.vue";
+import stuff from "@/components/stuff.vue";
+import footerSection from "@/components/footerSection.vue";
+
+
+
+
 
 export default {
   name: "home",
   components: {
-    htmlform
+    headerSection,
+    photo,
+    
+    stuff,
+    footerSection
   }
 };
 </script>
